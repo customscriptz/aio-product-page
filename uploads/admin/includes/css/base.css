@@ -1,0 +1,35 @@
+#filemanager tbody tr:hover td, #dirlist tbody tr:hover td, ul.jqueryfiletree a:hover { cursor: pointer; background: #ccc; color: #000; }
+#filemanager tbody tr.selected td, #dirlist tbody tr.selected td, ul.jqueryfiletree a.selected  { background: #999 !important; color: #fff; }
+select, textarea, input[type="text"] { padding: 3px; }
+.ui-datepicker-trigger { margin-left: 5px; vertical-align: middle; }
+#swfupload-image p { margin:6px 0; font-size:0.9em; }
+.upload_log { margin:5px 0px; padding:0; width:330px; }
+.fm_upload .upload_log { width:100%; }
+.fm_upload { display: none; width: 600px; }
+.upload_log li { list-style-type:none; margin:2px 0 5px; border:1px solid #ccc; padding:10px 10px 3px; font-size:12px; position:relative;}
+.upload_log li .progressbar { border:1px solid #333; height:5px; background:#fff; }
+.upload_log li p { margin:0; line-height:18px; }
+.upload_log li.success { border:1px solid #339933; background:#ccf9b9; }
+.upload_log li span.cancel { position:absolute; top:5px; right:5px; width:20px; height:20px; background:url('../javascript/swfupload/images/cancel.png') no-repeat; cursor:pointer; }
+.upload_log .progress { margin-top: 5px; }
+.uploadPanel { float:left; width: 500px }
+.imageList { float: left; width: 450px; }
+.imageList table td { padding: 6px; }
+.imageList img { border: none; }
+.attributes table td { padding: 10px; }
+#image_error_list { width: 330px }
+.ui-widget-content td { border-left: none !important; border-right: none !important; border-bottom: none !important; }
+.fileTree { text-align: left; width: 100%; height: 191px; border: solid 1px #828790; background: #FFF; overflow: auto; padding: 5px; }
+ul { list-style-type: none; margin: 0; padding: 0 }
+.icons .ui-state-default { cursor: pointer; width: 18px; height: 18px; float:left; }
+.icons .icon-save, li.icon-edit { margin-right: 2px }
+.hidden { display: none }
+tr.inactive input[readonly] { border: none; cursor: default; }
+#filemanager thead td, #dirlist thead td { padding: 10px; }
+#filemanager tbody td, #dirlist tbody td { padding: 7px; }
+#filemanager .dir, #filemanager .dirSize { font-weight: bold; }
+.swfupload { z-index: 1; }
+.icon { margin: -3px 0; }
+a.selected {
+	background: #CECECE;
+}
